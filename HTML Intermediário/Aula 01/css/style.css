@@ -1,0 +1,77 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    box-shadow: 15px 15px 25px rgb(234, 234, 234);
+    background-image:url(../img/cidade.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 200px;
+}
+
+
+.header .logomarca{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;   
+}
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    box-shadow: 15px 15px 25px rgb(234, 234, 234) inset;
+    width: 30%;
+    background: white;
+    padding: 30px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.navbar ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+    display: block;
+    background-color: rgb(76, 76, 192);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px 0px 8px 0px;
+}
+
+.content {
+    
+    width: 70%;
+    background: #d8d8d8;
+    padding: 30px;
+    border-radius: 30px 0px 0px 0px;
+    margin-top: 40px;
+}
+
+.content img{
+    width: 350px;
+}
+
+.footer{
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
