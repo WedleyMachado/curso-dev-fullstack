@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    background-color:rgb(211, 232, 240);
+    height: 100vh;
+    width: cover;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 29px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    
+}
+
+
+.counter {
+    background-color:grey;
+    border: 1px solid darkblue;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 350px;
+    width: 350px;
+    margin-top: -175px;
+    margin-left: -175px;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+}
+
+
+.mainBox {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+#n1 {
+    background-color: lightblue;
+    color: white;
+    height: 30px;
+    width: 150px;
+    padding: 12px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+#n2 {
+    background-color: lightblue;
+    height: 30px;
+    width: 150px;
+    padding: 12px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+
+.operators {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.operators button {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    background-color: lightblue;
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.operators button:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: 30px;
+    width: 150px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.result label {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
